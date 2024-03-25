@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #cfb384;
+  color: #5c6fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navlogo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url(https://www.amazon.com/ref=nav_logo);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+}
+
+.border {
+  border: 2px solid transparent;
+  border-radius: 2px;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.addfirst {
+  color: #cccccc;
+  font-size: 12px;
+  margin-left: 16px;
+  align-items: center;
+}
+
+.addsecond {
+  font-size: 14px;
+  margin-left: 3px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.addicon {
+  display: flex;
+  align-items: center;
+}
+
+.border2:hover {
+  border: 1.5px solid white;
+  height: 50px;
+}
+
+.search1 {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  background-color: rgb(246, 246, 246);
+  height: 40px;
+  width: 620px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.nav-search {
+  display: flex;
+  height: 40px;
+  width: 620px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  background-color: #f6f6f6;
+  margin-left: 15px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+}
+
+.search-option1 {
+  background-color: #f3f3f3;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+.form-look{
+  display: flex;
+  height: 40px;
+  width: 620px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  background-color: #f6f6f6;
+  margin-left: 15px;
+  border-radius: 4px;
+  
+}
+input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-input {
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(238, 156, 4, 0.849);
+  font-size: 1.2rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+.lanoption {
+  font-weight: bolder;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.languageoption {
+  height: 50px;
+  width: 74px;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+
+.american {
+  background-image: url(Images/america.webp);
+  background-size: cover;
+  height: 15px;
+  width: 20px;
+}
+
+.hello {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.account-sign {
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+/* style.css */
+.popup {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  z-index: 1;
+  display: none;
+}
+
+.show-popup .popup {
+  display: block;
+}
+
+.popup-content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.popup-header h2 {
+  margin: 0;
+}
+
+.popup-body input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.popup-footer {
+  text-align: center;
+}
+
+.popup-footer button {
+  padding: 5px 20px;
+}
+
+.popup-footer a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+
+.return {
+  font-size: 12px;
+}
+
+.order {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cart i {
+  font-size: 30px;
+}
+
+.cart {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.nav-search:hover {
+  border: 2px solid #fff0cb;
+}
+
+.second-nav {
+  height: 42px;
+  background-color: #5c6fff;
+  align-items: center;
+  color: #252323;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.second-nav p {
+  display: inline;
+}
+
+.allicon {
+  padding-left: 8px;
+  align-items: center;
+  display: flex;
+  width: 58px;
+  height: 36px;
+}
+
+.list {
+  font-weight: 700;
+  margin: 2px;
+  font-size: 14px;
+}
+
+.panel-ops {
+  width: 70%;
+  font-size: 0.8rem;
+}
+
+.ptag {
+  margin-left: 15px;
+}
+
+.deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
